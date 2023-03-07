@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+body {
+    background-image: url('assets/background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    margin: 70px 530px 0px;
+}
+
+.main-menu {
+    margin: 0px 475px;
+}
+
+button {
+    margin-top: 45px;
+    margin-left: 75px;
+    padding: 10px;
+
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    background: none;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+button:last-child {
+    margin-top: 60px;
+    margin-left: 93px;
+}
+
+button:hover {
+    color: blueviolet;
+}
+
+.design {
+    margin-top: 110px;
+    font-size: 10px;
+
+    text-align: center;
+}
