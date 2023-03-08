@@ -8,46 +8,39 @@
 body {
     background-image: url('assets/background.svg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
     background-size: cover;
 }
 
 .logo {
-    margin: 70px 530px 0px;
+    text-align: center;
+    padding: 3%;
 }
+
 
 .main-menu {
-    margin: 0px 475px;
+    text-align: center;
 }
 
-button {
-    margin-top: 45px;
-    margin-left: 75px;
+.main-menu a {
+    text-decoration: none;
+}
+
+.main-menu button {
+    display: block;
     padding: 10px;
+    margin: 40px auto 40px;
 
     font-size: 30px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-
-    background: none;
-    border: 2px solid;
+    border-radius: 20px;
     cursor: pointer;
-}
-
-button:last-child {
-    margin-top: 60px;
-    margin-left: 93px;
 }
 
 button:hover {
     color: blueviolet;
 }
 
-.design {
+footer {
     margin-top: 110px;
-    font-size: 10px;
-
     text-align: center;
 }
